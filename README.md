@@ -79,46 +79,14 @@ The models achieved the following performance on the test set:
 - **VGG16:**
   - Accuracy: 73%
   - Precision, Recall, F1-Score for each class: 
-                       precision    recall  f1-score   support
-
-            cataract       0.70      0.91      0.79       260
-diabetic_retinopathy       0.94      0.77      0.85       275
-            glaucoma       0.76      0.39      0.51       252
-              normal       0.62      0.84      0.72       269
-
-            accuracy                           0.73      1056
-           macro avg       0.76      0.73      0.72      1056
-        weighted avg       0.76      0.73      0.72      1056
-  
+                      
 - **ResNet152V2:**
   - Accuracy: 81%
   - Precision, Recall, F1-Score for each class:
-                       precision    recall  f1-score   support
-
-            cataract       0.93      0.89      0.91       260
-diabetic_retinopathy       0.84      0.86      0.85       275
-            glaucoma       0.83      0.69      0.75       252
-              normal       0.69      0.81      0.75       269
-
-            accuracy                           0.81      1056
-           macro avg       0.82      0.81      0.81      1056
-        weighted avg       0.82      0.81      0.82      1056
-  
+                 
 - **EfficientNetB7:**
   - Accuracy: 25%
   - Precision, Recall, F1-Score for each class: 
- precision    recall  f1-score   support
-
-            cataract       0.25      1.00      0.40       260
-diabetic_retinopathy       0.00      0.00      0.00       275
-            glaucoma       0.00      0.00      0.00       252
-              normal       0.00      0.00      0.00       269
-
-            accuracy                           0.25      1056
-           macro avg       0.06      0.25      0.10      1056
-        weighted avg       0.06      0.25      0.10      1056
-
-
 ## Visualization
 
 - The training history (accuracy and loss) for each model is plotted to show the model's performance over epochs.
